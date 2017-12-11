@@ -14,7 +14,7 @@ public partial class Home : System.Web.UI.Page
     [System.Web.Services.WebMethod]
     public static string setTXT(string city, string temp, string cond)
     {
-        string fullTXT = "The temperature in " + city + " is " + temp + " and the current condition is " + cond + ".";
+        string fullTXT = "The temperature in " + city + " is " + temp + "°F and the current conditions are " + cond + ".";
 
         return fullTXT;
     }
